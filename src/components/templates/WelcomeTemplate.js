@@ -1,8 +1,8 @@
 import { SafeAreaView, StyleSheet } from 'react-native';
 import HeroSection from '../organisms/HeroSection';
 import WelcomeFooter from '../organisms/WelcomeFooter';
-import { colors } from '../theme/colors';
-import { spacing } from '../theme/spacing';
+import { colors } from '../../theme/colors';
+import { spacing } from '../../theme/spacing';
 
 export default function WelcomeTemplate({ title, subtitle, image, onPress }) {
   return (
