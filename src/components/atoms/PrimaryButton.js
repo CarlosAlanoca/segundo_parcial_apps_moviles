@@ -1,7 +1,6 @@
 import { Pressable, StyleSheet, Text } from 'react-native';
 import { colors } from '../../theme/colors';
 import { fonts, size } from '../../theme/typography';
-import { spacing } from '../../theme/spacing';
 
 export default function PrimaryButton({ title = 'Get Started', onPress = () => {} }) {
   return (
@@ -21,7 +20,6 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     alignItems: 'center',
     justifyContent: 'center',
-    marginHorizontal: spacing.horizontal,
     // sombra morada suave
     shadowColor: colors.morado,
     shadowOffset: { width: 0, height: 4 },
