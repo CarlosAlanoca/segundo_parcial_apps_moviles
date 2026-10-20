@@ -1,6 +1,6 @@
 import { SafeAreaView, StyleSheet } from 'react-native';
-import HeroSection from '../components/organisms/HeroSection';
-import WelcomeFooter from '../components/organisms/WelcomeFooter';
+import HeroSection from '../organisms/HeroSection';
+import WelcomeFooter from '../organisms/WelcomeFooter';
 import { colors } from '../theme/colors';
 import { spacing } from '../theme/spacing';
 
